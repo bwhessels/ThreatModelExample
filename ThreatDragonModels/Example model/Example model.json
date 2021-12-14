@@ -84,7 +84,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "actor 4"
+                  "text": "Web client"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -98,8 +98,8 @@
                 "height": 80
               },
               "position": {
-                "x": 420,
-                "y": 30
+                "x": 870,
+                "y": 50
               },
               "angle": 0,
               "id": "e66e7e3e-cd24-4823-b697-bc07cbb8d9c3",
@@ -110,7 +110,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "actor 5"
+                  "text": "DBA"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -484,12 +484,38 @@
               "id": "88f40103-71c3-4b74-b6ff-db744e417175",
               "z": 27,
               "attrs": {}
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 1060,
+                "y": 50
+              },
+              "angle": 0,
+              "id": "8b75bdac-a101-4d6d-a69e-a3c55a596f8c",
+              "z": 28,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "DB User"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
         "size": {
           "height": 590,
-          "width": 790
+          "width": 1299.199951171875
         }
       }
     ],
