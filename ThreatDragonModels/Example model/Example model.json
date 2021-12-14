@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "title": "Example model",
+    "owner": "Bart Hessels",
+    "description": "A high level model of a web client with a database system"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "reviewer": "Joost Kremers"
+  }
+}
