@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "title": "Example model 2",
+    "owner": "Bart Hessels",
+    "description": "A bigger example (Web client + DB System)"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "reviewer": "Joost Kremers"
+  }
+}
