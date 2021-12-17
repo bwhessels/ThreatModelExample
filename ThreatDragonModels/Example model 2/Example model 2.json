@@ -156,8 +156,8 @@
                 "height": 80
               },
               "position": {
-                "x": 22,
-                "y": 29
+                "x": 120,
+                "y": 200
               },
               "angle": 0,
               "id": "086deb43-ce68-43ca-842d-9510f55bbb4d",
@@ -168,7 +168,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "System as a whole"
+                  "text": "Web Server"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -1040,6 +1040,82 @@
                 }
               ],
               "z": 37,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "086deb43-ce68-43ca-842d-9510f55bbb4d"
+              },
+              "target": {
+                "id": "a879e951-89a8-43fe-a38e-4c376cb9428f"
+              },
+              "vertices": [],
+              "id": "29fa1675-5db9-465d-9bc6-561b3ac1ac66",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Command",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 38,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "a879e951-89a8-43fe-a38e-4c376cb9428f"
+              },
+              "target": {
+                "id": "086deb43-ce68-43ca-842d-9510f55bbb4d"
+              },
+              "vertices": [
+                {
+                  "x": 350,
+                  "y": 230
+                }
+              ],
+              "id": "064a0fff-94d7-4e56-97dd-3001afc1997a",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.48475213934375927,
+                    "offset": 0
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Response",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 39,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
