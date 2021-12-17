@@ -162,16 +162,26 @@
               "angle": 0,
               "id": "086deb43-ce68-43ca-842d-9510f55bbb4d",
               "z": 8,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "title": "Web client compromise",
+                  "type": "Spoofing",
+                  "description": "If the web client gets compromised, an attacker might create an overlay and harvest credentials, or other data.",
+                  "mitigation": "Strong access control, Content Security Policy, etc."
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Web Client"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
