@@ -168,7 +168,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Web Server"
+                  "text": "Web Client"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
